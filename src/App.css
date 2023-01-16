@@ -1,38 +1,230 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300;400&family=Oxygen+Mono&family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;1,8..144,300&family=Roboto:wght@100&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .main-container, .addresses {
+  width: 100vw;
+  height: 80vh;
+  /* width: 1920px;
+  height: 1240px; */
+  background: #000000;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+} 
+
+.main-container-text {
+/* width: 698px;
+height: 117px; */
+/* left: 0px;
+top: 0px; */
+
+font-family: 'IBMPlexMono-Thin';
+font-style: normal;
+font-weight: 300;
+font-size: 90px;
+color: #FFFF;
+/* line-height: 117px;  */
+/* identical to box height */
+
+letter-spacing: -0.05em; 
 }
 
-.App-link {
-  color: #61dafb;
+.main-container-dynamic-text {
+/* width: 996px;
+height: 135px; */
+
+/* font-family: 'IBM Plex Mono'; */
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 135px;
+/* identical to box height, or 112% */
+
+display: flex; 
+align-items: flex-end;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+/* flex: none;
+order: 0;
+flex-grow: 0; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  gap: 570px;
+  background: #000000;
+  border-top: 2px solid#FFFFFF;
+}
+
+.footer-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 337.67px;
+  height: 82.35px;
+} 
+
+.footer-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 30px;
+  color: #FFFFFF;
+  letter-spacing: 1.5px;
+}
+
+.footer-text2 {
+  /* font-family: 'IBM Plex Mono'; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+/* identical to box height, or 125% */
+
+letter-spacing: -0.03em;
+
+  color: #FFFFFF;
+}
+
+.footer-icons-container {
+  color: #FFFFFF;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link-to-address {
+  color:#FFFFFF;
+}
+
+.link-to-address:hover {
+  color: rgb(60, 59, 59);
+}
+.location {
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  color: #FFFFFF;
+}
+
+.location:hover {
+  /* opacity: 0; */
+  color: gray;
+}
+
+.envelope {
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+
+}
+
+.telegram {
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.address-header {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80px;
+  color: #FFFF;
+  letter-spacing: -0.05em; 
+}
+
+.address-header:hover {
+  cursor: pointer;
+  opacity: 0.2;
+}
+.address-paragraph {
+  width: 822px;
+  height: 42px;
+
+  /* font-family: 'IBM Plex Mono'; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.03em;
+
+  color: #FFFFFF;
+  word-spacing: 5px;
+}
+.address-paragraph:hover {
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.location-adresses {
+  color: #FFFFFF;
+  font-size: 60px;
+}
+
+.location-adresses:hover {
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+.address-footer {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  padding: 40px;
+  gap: 570px;
+  background: #000000;
+  border-top: 2px solid#FFFFFF;
+}
+
+
+.close {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+}
+
+.close:hover {
+  opacity: 0.2;
+}
+
+a {
+  text-decoration: none;
 }
