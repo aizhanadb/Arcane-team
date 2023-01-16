@@ -9,7 +9,7 @@ const Address = () => {
       <div className="addresses">
       <div>
         <IoLocationOutline className='location-adresses '/>
-        <span className='address-header'>Singapore</span>
+        <Link to='/'><span className='address-header'>Singapore</span></Link>
         </div>
       <p className='address-paragraph'>531 Upper Cross Street, Hong Lim Complex</p>
 
@@ -17,7 +17,7 @@ const Address = () => {
       <div>
         <span>
           <IoLocationOutline className='location-adresses'/>
-          <span className='address-header'>Georgia, Tbilisi</span>
+          <Link to='/'><span className='address-header'>Georgia, Tbilisi</span></Link>
           </span> 
         </div>
 
