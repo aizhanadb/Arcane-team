@@ -12,11 +12,11 @@ const Footer = () => {
         <p className='footer-text2'>© Arcane team, 2023</p>
         </div>
         <div className="footer-icons-container">
-            <Link className='link-to-address' to="/address">
+            <Link to="/address">
             <IoLocationOutline className='location'/>
             </Link>
             <a href="mailto:hello@arcane.team"> <RxEnvelopeClosed className='envelope'/></a> 
-            <a href="@ArcaneTeamRobot"> <TbBrandTelegram className='telegram'/></a> 
+            <a target="_blank" href="https://t.me/ArcaneTeamRobot"> <TbBrandTelegram className='telegram'/></a> 
         </div>
     </div>
   )
