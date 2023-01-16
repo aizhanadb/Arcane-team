@@ -36,29 +36,24 @@ color: #FFFF;
 letter-spacing: -0.05em; 
 }
 
+.main-container-text:hover {
+  opacity: 0.1;
+  cursor: context-menu;
+}
 .main-container-dynamic-text {
-/* width: 996px;
-height: 135px; */
-
-/* font-family: 'IBM Plex Mono'; */
 font-style: normal;
 font-weight: 400;
-font-size: 120px;
+font-size: 80px;
 line-height: 135px;
-/* identical to box height, or 112% */
-
 display: flex; 
 align-items: flex-end;
 letter-spacing: -0.05em;
-
 color: #FFFFFF;
+}
 
-
-/* Inside auto layout */
-
-/* flex: none;
-order: 0;
-flex-grow: 0; */
+.main-container-dynamic-text:hover {
+  opacity: 0.1;
+  cursor: context-menu;
 }
 
 .footer {
@@ -91,6 +86,10 @@ flex-grow: 0; */
   color: #FFFFFF;
   letter-spacing: 1.5px;
 }
+.footer-text:hover {
+  opacity: 0.1;
+  cursor: context-menu;
+}
 
 .footer-text2 {
   /* font-family: 'IBM Plex Mono'; */
@@ -99,10 +98,14 @@ flex-grow: 0; */
   font-size: 24px;
   line-height: 30px;
 /* identical to box height, or 125% */
-
-letter-spacing: -0.03em;
-
+  letter-spacing: -0.03em;
   color: #FFFFFF;
+}
+
+
+.footer-text2:hover {
+  opacity: 0.1;
+  cursor: context-menu;
 }
 
 .footer-icons-container {
@@ -113,13 +116,6 @@ letter-spacing: -0.03em;
   justify-content: space-between;
 }
 
-.link-to-address {
-  color:#FFFFFF;
-}
-
-.link-to-address:hover {
-  color: rgb(60, 59, 59);
-}
 .location {
   width: 35px;
   height: 35px;
@@ -128,22 +124,33 @@ letter-spacing: -0.03em;
 }
 
 .location:hover {
-  /* opacity: 0; */
-  color: gray;
+  opacity: 0.1;
+  cursor: pointer;
 }
 
 .envelope {
   width: 35px;
   height: 35px;
   margin: 10px;
+  color: #FFFFFF;
 
+}
+
+.envelope:hover {
+  opacity: 0.1;
+  cursor: pointer;
 }
 
 .telegram {
   width: 35px;
   height: 35px;
   margin: 10px;
+  color: #FFFFFF;
+}
 
+.telegram:hover {
+  opacity: 0.1;
+  cursor: pointer;
 }
 
 .address {
@@ -163,7 +170,7 @@ letter-spacing: -0.03em;
 
 .address-header:hover {
   cursor: pointer;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 .address-paragraph {
   width: 822px;
@@ -183,7 +190,7 @@ letter-spacing: -0.03em;
   word-spacing: 5px;
 }
 .address-paragraph:hover {
-  opacity: 0.2;
+  opacity: 0.1;
   cursor: pointer;
 }
 
@@ -194,7 +201,7 @@ letter-spacing: -0.03em;
 
 .location-adresses:hover {
   cursor: pointer;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .address-footer {
@@ -222,7 +229,7 @@ letter-spacing: -0.03em;
 }
 
 .close:hover {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 a {
