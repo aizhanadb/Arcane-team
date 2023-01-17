@@ -7,21 +7,24 @@ const Address = () => {
   return (
     <div className='address-container'>
       <div className="addresses">
+        <div className='address'>
       <div>
         <IoLocationOutline className='location-adresses '/>
         <Link to='/'><span className='address-header'>Singapore</span></Link>
         </div>
       <p className='address-paragraph'>531 Upper Cross Street, Hong Lim Complex</p>
+        </div>
 
-
+        <div className='address'>
       <div>
         <span>
           <IoLocationOutline className='location-adresses'/>
           <Link to='/'><span className='address-header'>Georgia, Tbilisi</span></Link>
           </span> 
         </div>
-
       <p className='address-paragraph'>20 Anton Chekovi Street</p>
+
+        </div>
       </div>
       <footer className='address-footer'>
       <Link to='/'><AiOutlineClose className='close'/></Link>
