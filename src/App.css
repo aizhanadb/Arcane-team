@@ -63,9 +63,9 @@ body {
   cursor: context-menu;
 }
 
-.footer-main {
-  /* height: 10vh; */
-}
+/* .footer-main {
+  height: 10vh;
+} */
 
 .footer {
   display: flex;
