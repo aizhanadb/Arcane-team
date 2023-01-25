@@ -26,6 +26,7 @@ const Address = () => {
 
         </div>
       </div>
+      <div className='line'></div>
       <footer className='address-footer'>
       <Link to='/'><AiOutlineClose className='close'/></Link>
       </footer>

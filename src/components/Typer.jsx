@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TYPING_SPEED = 150;
-const DELETING_SPEED = 30;
+const DELETING_SPEED = 40;
 
 class Typer extends React.Component {
 
@@ -42,6 +42,7 @@ class Typer extends React.Component {
   render() {
     return (
       <h1 className='main-container-dynamic-text'> {this.state.text}
+      <span id="cursor"></span>
       </h1>
     );
   }
@@ -81,7 +82,7 @@ export default Typer;
 //             setTimeout(handleType, typingSpeed);
 //         }
 //         handleType()
-//     },[])
+//     })
 
     
 //   return (
@@ -93,4 +94,4 @@ export default Typer;
 //   )
 // }
 
-// export default Typer
+// export default Typer;
