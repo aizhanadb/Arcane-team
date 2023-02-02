@@ -5,30 +5,14 @@ import Typer from './Typer';
 
 
 const Main = () => {
-  const words = [ 'Blockchain', 'Smart contarcts', 'Web3 Women'];
-  // const [loopNum, setLoopNum] = useState(0);
-  // const fullText = words[loopNum];
-
-  // useEffect(() => {
-  //   const interval = setTimeout(() => {
-  //     if(loopNum > words.length ) {
-  //       setLoopNum(0)
-  //     }else {
-  //       setLoopNum(loopNum+1)
-  //     }
-  //   }, 2500);
-
-  //   // if(loopNum > words.length ) {
-  //   //   clearInterval(interval)
-  //   // }
-  // })
+  const words = [ 'UX/UI', 'Apps', 'Smart contarcts', 'Dapps', 'Payment Systems' ];
   
   return (
     
     <>
       <main  className='main-container'>
         <div className='text-wrapper'>
-        <h2 className='main-container-text'>Web3 Solutions</h2>
+        <h2 className='main-container-text'>We develop</h2>
           <Typer
           dataText={words}/>
         </div>

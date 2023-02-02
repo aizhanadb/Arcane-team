@@ -1,7 +1,7 @@
 import React from 'react';
 
-const TYPING_SPEED = 150;
-const DELETING_SPEED = 40;
+const TYPING_SPEED = 170;
+const DELETING_SPEED = 60;
 
 class Typer extends React.Component {
 
