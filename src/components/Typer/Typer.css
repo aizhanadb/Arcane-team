@@ -1,0 +1,40 @@
+.dynamic-text {
+    font-family: 'IBMPlexMono-Regular';
+    font-size: clamp(2rem, -1.5211rem + 10.3614vw, 6.25rem);
+    display: flex; 
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+  } */
+
+#cursor {
+    border-left: .1em solid #FFFFFF;
+    animation: blink .7s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+
+@media (hover: hover) {
+    /* when hover is supported */
+    .dynamic-text:hover {
+      opacity: 0.1;
+      cursor: context-menu;
+    }
+  }
+  
+  @media only screen and (max-width:370px) {
+    .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 0px;
+    background: #000000;
+    border-top: 2px solid#FFFFFF;
+    };
+  } 

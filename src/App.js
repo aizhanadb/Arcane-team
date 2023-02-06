@@ -1,8 +1,7 @@
 import './App.css';
-import Address from './components/Address';
-// import Footer from './components/Footer';
-import Main from './components/Main';
+import Address from './components/Address/Address';
 import { Routes, Route } from 'react-router-dom';
+import Main from './components/Main/Main';
 
 function App() {
   return (
