@@ -11,14 +11,14 @@ const Address = () => {
       
       <div className="address-block__addresses">
       <div className='address-block__address'>
-        <IoLocationOutline className='address-block__location'/>
+        <span className='location'><IoLocationOutline className='address-block__location'/></span>
         <Link to='/'><span className='address-block__header'>Singapore</span></Link>
       <p className='address-block__paragraph'>531 Upper Cross Street, Hong Lim Complex</p>
         </div>
     
       <div className='address-block__address'>
           <IoLocationOutline className='address-block__location'/>
-          <Link to='/'><span className='address-block__header'>Georgia, Tbilisi</span></Link>
+          <Link to='/'><span className='address-block__header'>Georgia,Tbilisi</span></Link>
       <p className='address-block__paragraph'>20 Anton Chekovi Street</p>
         </div>
       </div>

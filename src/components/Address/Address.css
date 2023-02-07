@@ -8,9 +8,12 @@
     align-items: center;
     gap: 60px;
   }
-  
-  .address-block__address {
 
+  .address-block__address {
+    display: -ms-flexbox;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 50vw;
   }
 
   @font-face {
@@ -23,14 +26,9 @@
     font-style: normal;
     font-weight: 300;
     font-size: clamp(1rem, 0.5rem + 5.4217vw, 5rem);
-    /* font-size: clamp(0.8125rem, -1.3453rem + 10.8911vw, 5.625rem); */
     color: #FFFFFF;
     letter-spacing: -0.05em; 
-    padding: 20px;
-    text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    padding: 15px;
   }
   
   @font-face {
@@ -39,16 +37,12 @@
   }
   
   .address-block__paragraph {
-    /* width: 822px; */
-    /* height: 42px; */
     font-family: 'IBMPlexMono-ExtraLight';
     font-style: normal;
     font-weight: 100;
     font-size: clamp(0.625rem, 0.1792rem + 1.9277vw, 1.625rem);
-    line-height: 72px;
-    text-align: center;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
+    padding: 15px;
     word-spacing: 5px;
   }
   
@@ -56,6 +50,10 @@
     color: #FFFFFF;
     font-size: clamp(1.5625rem, 0.5873rem + 4.2169vw, 3.75rem);
   }
+
+  /* .location {
+    display: inline !important; 
+  } */
 
   .address-block__line {
     background-color: #FFFFFF;
