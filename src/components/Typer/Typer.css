@@ -4,7 +4,7 @@
     display: flex; 
     letter-spacing: -0.05em;
     color: #FFFFFF;
-  } */
+  }
 
 #cursor {
     border-left: .1em solid #FFFFFF;
@@ -19,7 +19,6 @@
   
 
 @media (hover: hover) {
-    /* when hover is supported */
     .dynamic-text:hover {
       opacity: 0.1;
       cursor: context-menu;
@@ -37,4 +36,4 @@
     background: #000000;
     border-top: 2px solid#FFFFFF;
     };
-  } 
+  }  

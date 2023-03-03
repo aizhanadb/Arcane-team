@@ -1,4 +1,4 @@
-.footer-block {
+ .footer-block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -67,7 +67,6 @@
   }
 
   @media (hover: hover) {
-    /* when hover is supported */
     .footer-block__text:hover {
       opacity: 0.1;
       cursor: context-menu;
@@ -106,5 +105,5 @@
     background: #000000;
     border-top: 2px solid#FFFFFF;
     };
-  
-  } 
+
+  }  

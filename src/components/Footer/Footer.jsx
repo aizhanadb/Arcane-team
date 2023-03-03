@@ -17,7 +17,7 @@ const Footer = () => {
             <IoLocationOutline className='footer-block__location'/>
             </Link>
             <a href="mailto:hello@arcane.team"> <RxEnvelopeClosed className='footer-block__envelope'/></a> 
-            <a target="_blank" href="https://t.me/ArcaneTeamRobot"> <TbBrandTelegram className='footer-block__telegram'/></a> 
+            <a href="https://t.me/ArcaneTeamRobot"> <TbBrandTelegram className='footer-block__telegram'/></a> 
         </div>
     </div>
   )

@@ -1,5 +1,4 @@
-.main-block {
-    min-width: 100vw;
+  .main-block {
     min-height: 85vh;
     background: #000000;
     display: flex;
@@ -57,11 +56,10 @@
   }
 
   @media (hover: hover) {
-    /* when hover is supported */
     .main-block__text:hover  {
       opacity: 0.1;
       cursor: context-menu;
     }
     
   }
-  
+   

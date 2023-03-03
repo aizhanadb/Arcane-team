@@ -1,5 +1,3 @@
-import React, {useEffect} from 'react';
-import { useState } from 'react';
 import Typer from '../Typer/Typer';
 import Footer from '../Footer/Footer';
 import './Main.css';
@@ -7,7 +5,6 @@ import './Main.css';
 
 
 const Main = () => {
-  // const words = [ 'UX/UI', 'Apps', 'Smart contarcts', 'Dapps', 'Payment Systems' ];
   
   return (
     

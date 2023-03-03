@@ -1,4 +1,4 @@
-.address-block__addresses {
+ .address-block__addresses {
     min-width: 100vw;
     min-height: 90vh;
     background: #000000;
@@ -51,10 +51,6 @@
     font-size: clamp(1.5625rem, 0.5873rem + 4.2169vw, 3.75rem);
   }
 
-  /* .location {
-    display: inline !important; 
-  } */
-
   .address-block__line {
     background-color: #FFFFFF;
     min-width: 100vw;
@@ -84,8 +80,7 @@
   }
   
 
-  @media (hover: hover) {
-    /* when hover is supported */
+  @media (hover: hover) {  
     .address-block__header:hover {
       cursor: pointer;
       opacity: 0.1;
@@ -109,4 +104,4 @@
       opacity: 0.1;
     }
   }
-  
+   
