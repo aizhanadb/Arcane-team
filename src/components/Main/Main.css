@@ -9,7 +9,7 @@
   }
   
   .main-block__text-wrapper {
-    height: clamp(5rem, -2.9367rem + 28.9157vw, 18.75rem);
+    height: clamp(5rem, -2.9367rem + 28.9157vw, 68.75rem);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,3 +63,6 @@
     
   }
    
+  .main-block__footer-main {
+    min-height: 10vh;
+  }

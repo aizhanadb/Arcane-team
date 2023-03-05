@@ -15,7 +15,7 @@ const Main = () => {
          <Typer/>
         </div>
       </main>
-      <footer className='footer-main'>
+      <footer className='main-block__footer-main'>
         <div className='main-block-line'></div>
         <Footer/>
       </footer>
