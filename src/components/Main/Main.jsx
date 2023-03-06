@@ -3,11 +3,9 @@ import Footer from '../Footer/Footer';
 import './Main.css';
 
 
-
 const Main = () => {
   
-  return (
-    
+  return ( 
     <>
       <main  className='main-block'> 
         <div className='main-block__text-wrapper'>
