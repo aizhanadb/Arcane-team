@@ -19,7 +19,6 @@ const Address = () => {
       <div className='address-block__address'>
           <IoLocationOutline className='address-block__location'/>
           <Link to='/'><span className='address-block__header'>Georgia,Tbilisi</span></Link>
-      <p className='address-block__paragraph'>20 Anton Chekovi Street</p>
         </div>
       </div>
       <div className='address-block__line'></div>
