@@ -28,7 +28,10 @@
     font-size: clamp(2rem, -1.2274rem + 7.4699vw, 5.375rem);
     color: #FFFF;
     letter-spacing: -0.05em;
-  
+  }
+
+  .main-block__text.is-clicked {
+    opacity: 0.1;
   }
   
   @font-face {
@@ -44,15 +47,16 @@
     color: #FFFFFF;
   }
   
-  #cursor {
-    border-left: .1em solid #FFFFFF;
-    animation: blink .7s steps(1) infinite;
-  }
 
   .main-block-line {
     background-color: #FFFFFF;
     min-width: 100vw;
     height: 2px;
+  }
+
+  .main-block__footer-main {
+    height: 10vh;
+    padding: 15px;
   }
 
   @media (hover: hover) {

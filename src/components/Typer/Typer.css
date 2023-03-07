@@ -6,17 +6,9 @@
     color: #FFFFFF;
   }
 
-#cursor {
-    border-left: .1em solid #FFFFFF;
-    animation: blink .7s steps(1) infinite;
-  }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  
+  .dynamic-text.is-clicked {
+    opacity: 0.1;
+  }  
 
 @media (hover: hover) {
     .dynamic-text:hover {
