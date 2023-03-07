@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { IoLocationOutline } from "react-icons/io5";
 import { RxEnvelopeClosed } from "react-icons/rx";
 import { TbBrandTelegram } from "react-icons/tb";
@@ -6,10 +6,16 @@ import { Link } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
+  const [isClicked, setIsClicked] = useState(false);
+
+  const handleClick = () => {
+    setIsClicked((prevState) => !prevState);
+  };
+
   return (
     <div className='footer-block'>
         <div className='footer-block__text-container'>
-        <p className='footer-block__text2'>© Arcane Team, 2023</p>
+        <p className={`footer-block__text ${isClicked ? 'clicked' : ''}`}onClick={handleClick}>© Arcane Team, 2023</p>
         </div>
         <div className="footer-block__icons-container">
             <Link to="/locations">

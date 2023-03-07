@@ -6,7 +6,7 @@
     color: #FFFFFF;
   }
 
-  .dynamic-text.is-clicked {
+  .dynamic-text.clicked {
     opacity: 0.1;
   }  
 

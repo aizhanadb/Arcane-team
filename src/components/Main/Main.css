@@ -30,7 +30,7 @@
     letter-spacing: -0.05em;
   }
 
-  .main-block__text.is-clicked {
+  .main-block__text.clicked {
     opacity: 0.1;
   }
   
@@ -62,8 +62,6 @@
   @media (hover: hover) {
     .main-block__text:hover  {
       opacity: 0.1;
-      cursor: context-menu;
-    }
-    
+    }  
   }
   
